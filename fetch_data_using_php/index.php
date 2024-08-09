@@ -14,4 +14,5 @@ if ($_SERVER('REQUEST_METHOD') == "POST") {
 
 
 $query = mysqli_query($connection, "insert into student (name,email,password) values ('$name','$email','$pass')");
+
 ?>
